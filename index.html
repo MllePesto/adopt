@@ -1,15 +1,55 @@
+<!doctype html>
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Adopte un Pet</title>
-  </head>
-  <body>
-      <center><h1>Adopte un Pet</h1></center>
-      <form class="" action="index.html" method="post">
-        Bonjour
-        <input type="text" name="" value="">
-      </form>
-      
-  </body>
+<html>
+<head>
+	<title>Adopte un Pet</title>
+</head>
+<body>
+	<h1><center><b>Adopte un Pet</b></center></h1>
+	<p>
+		<h3>Entrez les informations de l'animal à mettre en adoption :</h5>
+	<b>Nom :</b>
+	<form class="" action="Pet.html" method="post">
+	
+
+	<input type="text" id="Nom" name="Nom" required maxlength="15" size="15">
+	<br/>
+	<b>Type :</b>
+
+			<select name="type" id="Type" size="1">
+				<option>Chien
+				<option>Chat
+			</select>
+	<br/>
+	<b>Age :</b>
+	<input type="text" id="Age" name="Age" required maxlength="2"  size="15">
+	<select name="Echelle" id="Echelle" size="1">
+				<option>mois
+				<option>ans
+			</select>
+	<br/>
+	<b>Numéro de téléphone :</b>
+	<input type="text" id="Tel" name="Tel" required maxlength="15" size="15">
+	<br/>
+		<input type="button" id="boutton" value="Valider">
+		<form/>
+	</p>
+
+<h3>Animaux à adopter :</h3>
+	<p id="Modif">
+	<b>Nom :</b>
+	<br/>
+	<b>Type :</b>
+	<br/>
+	<b>Age :</b>
+	<br/>
+	<b>Numéro de téléphone :</b>
+
+	</p>
+
+
+
+	<script type="text/javascript" src="Pet.js"></script>
+
+</body>
 </html>
